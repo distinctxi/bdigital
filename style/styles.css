@@ -265,6 +265,13 @@ a.button:hover{
     background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);;
 }
 
+.header-text h1{
+    font-size: 64px;
+    line-height: 120%;
+    font-weight:700;
+    letter-spacing: 20px;
+}
+
 .three-columns{
     width:28%;
     margin-right: 8%;
@@ -300,6 +307,15 @@ a.button:hover{
 }
 
 .about-section{
+    background-color: #000;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: #ecf0f1;
+    position: relative;
+}
+
+.portfolio-section{
     background-color: #000;
     background-position: left bottom;
     background-repeat: no-repeat;
@@ -365,7 +381,7 @@ a.button:hover{
     border-color: #ecf0f1 transparent transparent transparent;
 }
 
-.section-title-holder h2{
+.section-title-holder h3{
     font-weight: 400;
     word-break: break-word;
     text-align: center;
