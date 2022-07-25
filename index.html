@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style/styles.css">
+<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+<link href='style/transition.min.css' rel='stylesheet'>
+<script src = "scripts/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<header>
+<nav class="navbar" id="navbar">
+    <img class="logo" src="icon/icon.png" alt="Logo">
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="javascript:void" onclick="openNav()" class="icon"><i class='bx bx-menu mobile-menu'></i></a></li>
+    </ul>
+</nav>
+
+<div class="mobnavbar" id="mobnavbar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <ul class="nav-links mobile" id="nav-links">
+        <<li><a href="#home">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Clients</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</div>
+
+<!--Page preloader-->
+<div id="page-preloader"class="loading-page-wrapper">
+    <div class="loading-page">
+      <div class="spinner"></div>
+    </div>
+</div>
+</header>
+
+<section id="home" class="main-section">
+    <div class="container">
+        <div class="header-text">
+            <h1>Text</h1>
+        </div>
+        <div class="button-container">
+            <a href="#" class="button">FIND OUT MORE</a>
+        </div>
+    </div>
+</section>
+
+<section id="services" class="services-section">
+    <div class="section-title-holder">
+        <h2>SERVICES</h2>
+    </div>
+    <div class="container">
+        <div class="content-wrapper center-relative max-width-95">
+            <div class="three-columns">
+                <div class="services-content">
+                    <p class="services-icon">
+                        <i class='bx bxs-devices'></i>
+                    </p>
+                    <div class="services-text">
+                        <h3>Responsive</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ultrices arcu, et blandit orci. Integer odio metus, dignissim vel.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="three-columns">
+                <div class="services-content">
+                    <p class="services-icon">
+                        <i class='bx bx-edit'></i>
+                    </p>
+                    <div class="services-text">
+                        <h3>Easy To Customize</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ultrices arcu, et blandit orci. Integer odio metus, dignissim vel.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="three-columns last">
+                <div class="services-content">
+                    <p class="services-icon">
+                        <i class='bx bx-bulb'></i>
+                    </p>
+                    <div class="services-text">
+                        <h3>Interactive</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ultrices arcu, et blandit orci. Integer odio metus, dignissim vel.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about-section">
+    <div class="section-title-holder inverted">
+        <h2>ABOUT</h2>
+    </div>
+    <div class="container">
+        <div class="content-wrapper center-relative max-width-95">
+            <div class="two-columns">
+                <P>WHO WE ARE</P>
+                <h2 class="entry-title medium-text">Live up to
+                    your creative potential.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a enim magna. Donec vel sapien nisi. Orci varius natoque penatibus et magnis dis parturient montes.</p>
+            </div>
+            <div class="two-columns last"><img src="image/about.jpg" alt="" class="about-us-img">
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</section>
+
+
+<script src="scripts/responsivemenu.js"></script>
+<script src="scripts/preloader.js"></script>
+
+</body>
+</html>
