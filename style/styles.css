@@ -272,6 +272,27 @@ a.button:hover{
     letter-spacing: 20px;
 }
 
+@media screen and (max-width: 768px){
+    .header-text h1{
+        font-size: 32px;
+    }
+}
+
+.counter-number {
+    margin-top: 17px;
+    font-size: 45px;
+    line-height: 45px;
+    color: #4b4e53;
+    font-weight: 100;
+    text-align: center;
+}
+
+.counter-descr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .three-columns{
     width:28%;
     margin-right: 8%;
@@ -282,6 +303,14 @@ a.button:hover{
 
 .two-columns {
     width: 46%;
+    margin-right: 8%;
+    float: left;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.four-columns {
+    width: 19%;
     margin-right: 8%;
     float: left;
     position: relative;
@@ -324,6 +353,24 @@ a.button:hover{
     position: relative;
 }
 
+.counter-section{
+    background-color: #ecf0f1;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: #000;
+    position: relative;
+}
+
+.contact-section{
+    background-color: #ecf0f1;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: #000;
+    position: relative;
+}
+
 .services-icon{
     font-size: 215px;
     font-weight: 700;
@@ -332,7 +379,7 @@ a.button:hover{
     line-height: 100%;
     overflow: hidden;
     margin-bottom: -10px;
-    -webkit-transform: translateZ(0);
+    --webkit-transform: translateZ(0);
 }
 
 .services-text p{
@@ -401,10 +448,155 @@ a.button:hover{
     padding-bottom: 35px;
 }
 
+@media screen and (max-width: 1020px){
+    .medium-text{
+        font-size: 32px;
+        line-height: 105%;
+        padding-top:10px ;
+    }
+}
+
 .content-wrapper{
     position: relative;
     padding: 200px 0 115px 0;
 }
+
+.row-center{
+    padding: 100px 0px 200px 0px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #000;
+    color: #ecf0f1;
+}
+
+.address{
+    text-align:left;
+}
+
+.mapouter{
+    
+    position:relative;
+    text-align:center;
+    height:350px;
+    width:100%;
+}
+
+.map-frame{
+    max-width: 800px;
+    height: 350px;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:350px;
+    width:100%}
+
+.footer-wrapper{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.contact-form {
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 22px;
+    color: #000;
+}
+
+  .contact-form {
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 22px;
+    color: #000;
+}
+
+.contact-form p {
+    margin-bottom: 0 !important;
+}
+
+.contact-form input[type=text], 
+.contact-form input[type=email], 
+.contact-form textarea {
+    font-weight: 500;
+    border: 0;
+    font-size: 15px;
+    padding: 5px 0;
+    width: 100%;
+    line-height: 25px;
+    color: #000;
+    margin-bottom: 35px;
+    text-indent: 10px;
+    background-color: transparent;
+    border-bottom: 3px solid;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form input[type=text]::placeholder, 
+.contact-form input[type=email]::placeholder, 
+.contact-form textarea::placeholder {
+    color: #000;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 1;
+}
+
+.contact-form input[name="your-name"] {
+    margin-top: 0;    
+}
+
+.contact-submit-holder {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.contact-form input[type=submit] {
+    color: #000;
+    background-color: #ecf0f1;
+    text-align: center;
+    padding: 10px 40px;    
+    cursor: pointer;
+    /*vertical-align: middle;*/
+    text-decoration: none;
+    transition: all .2s linear;
+    margin-bottom: 17px;
+    display: block;
+    width: 100%;
+    line-height: 35px;
+    border: 2px solid #000;
+    border-radius: 50px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+}
+
+.contact-form input[type=submit]:hover {
+    background-color: #000;
+    color: #ecf0f1;
+}
+
+.contact-form input:focus::placeholder {
+    color: transparent;
+}
+.contact-form input:focus::-webkit-input-placeholder { color:transparent; }
+.contact-form input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+.contact-form input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+.contact-form input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+.contact-form textarea:focus::placeholder {
+    color: transparent;
+}
+.contact-form textarea:focus::-webkit-input-placeholder { color:transparent; }
+.contact-form textarea:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+.contact-form textarea:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+.contact-form textarea:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 
 @media screen and (max-width: 1020px){
 .two-columns, .three-columns, .one_fourth, .two_third, .three_fourth {
