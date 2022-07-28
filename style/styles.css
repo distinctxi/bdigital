@@ -256,7 +256,7 @@ a.button:hover{
     margin-bottom: 40px;
     content: '"';
     position: absolute;
-    left: 1%;
+    left: 5%;
 }
 
 .header-text h1{
@@ -264,7 +264,7 @@ a.button:hover{
     line-height: 120%;
     font-weight:700;
     text-align: left;
-    margin-left: 6%;
+    margin-left: 12%;
 }
 
 /*@media screen and (max-width: 768px){
@@ -355,7 +355,7 @@ a.button:hover{
 @media screen and (max-width: 600px){
     .header-text h1{
         font-size: 13vw;
-        margin-left: 8%;
+        margin-left: 12%;
     }
 
 
