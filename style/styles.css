@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;400;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Overpass:wght@100;400;900&display=swap');
 html {
     box-sizing: border-box;
     font-size: 16px;
@@ -246,6 +245,7 @@ a.button:hover{
 }
 
 .header-text{
+    font-family: 'Montserrat', sans-serif;
     position: relative;
     margin-bottom: 20px;
     font-weight: bold;
@@ -313,6 +313,17 @@ a.button:hover{
     margin-bottom: 30px;
 }
 
+.break-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 768px)
+{   
+    .break-mobile{
+        display: block;
+    }
+}
+
 .center-relative{
     margin-left: auto;
     margin-right: auto;
@@ -339,6 +350,15 @@ a.button:hover{
     background-size: cover;
     color: #ecf0f1;
     position: relative;
+}
+
+@media screen and (max-width: 600px){
+    .header-text h1{
+        font-size: 13vw;
+        margin-left: 8%;
+    }
+
+
 }
 
 @media screen and (max-width: 768px){
