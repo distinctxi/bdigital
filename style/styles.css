@@ -340,7 +340,9 @@ a.button:hover{
     background-size: auto;
     color: #000;
     position: relative;
+    scroll-margin-top: 40px;
 }
+
 
 .about-section{
     background-image: url("../image/BDigital_Web_02.jpg");
@@ -350,6 +352,7 @@ a.button:hover{
     background-size: cover;
     color: #ecf0f1;
     position: relative;
+    scroll-margin-top: 40px;
 }
 
 @media screen and (max-width: 600px){
@@ -382,6 +385,7 @@ a.button:hover{
     background-size: auto;
     color: #ecf0f1;
     position: relative;
+    scroll-margin-top: 40px;
 }
 
 .counter-section{
@@ -391,6 +395,7 @@ a.button:hover{
     background-size: auto;
     color: #000;
     position: relative;
+    scroll-margin-top: 40px;
 }
 
 .contact-section{
@@ -400,6 +405,7 @@ a.button:hover{
     background-size: auto;
     color: #000;
     position: relative;
+    scroll-margin-top: 40px;
 }
 
 .services-icon{

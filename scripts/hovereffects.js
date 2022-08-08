@@ -26,6 +26,24 @@ $(document).ready(function(){
     $('#img9desc').mouseover(function(){
         $('#img9').css('filter',' none');
     });
+    $('#img10desc').mouseover(function(){
+        $('#img10').css('filter',' none');
+    });
+    $('#img11desc').mouseover(function(){
+        $('#img11').css('filter',' none');
+    });
+    $('#img12desc').mouseover(function(){
+        $('#img12').css('filter',' none');
+    });
+    $('#img13desc').mouseover(function(){
+        $('#img13').css('filter',' none');
+    });
+    $('#img14desc').mouseover(function(){
+        $('#img14').css('filter',' none');
+    });
+    $('#img15desc').mouseover(function(){
+        $('#img15').css('filter',' none');
+    });
     $('.gridinfo').mouseout(function(){
         $('#img1').css('filter',' grayscale()');
         $('#img2').css('filter',' grayscale()');
@@ -36,5 +54,11 @@ $(document).ready(function(){
         $('#img7').css('filter',' grayscale()');
         $('#img8').css('filter',' grayscale()');
         $('#img9').css('filter',' grayscale()');
+        $('#img10').css('filter',' grayscale()');
+        $('#img11').css('filter',' grayscale()');
+        $('#img12').css('filter',' grayscale()');
+        $('#img13').css('filter',' grayscale()');
+        $('#img14').css('filter',' grayscale()');
+        $('#img15').css('filter',' grayscale()');
     });
 });
