@@ -417,10 +417,26 @@ a.button:hover{
     overflow: hidden;
     margin-bottom: -10px;
     --webkit-transform: translateZ(0);
+    text-align: center;
+}
+@media screen and (max-width: 1020px){
+.services-icon img{
+    width: 50%;
+    }
+}
+
+.services-icon img{
+    width: 70%;
+}
+
+
+.services-text h3{
+    text-align: center;
 }
 
 .services-text p{
     line-height: 150%;
+    text-align: center;
 }
 
 .about-us-img{
@@ -583,6 +599,7 @@ a.button:hover{
     color: #000;
     margin-bottom: 35px;
     text-indent: 10px;
+    font-family: inherit;
     background-color: transparent;
     border-bottom: 3px solid;
 }
@@ -652,13 +669,23 @@ a.button:hover{
 .contact-form textarea:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 
 @media screen and (max-width: 1020px){
-.two-columns, .three-columns, .one_fourth, .two_third, .three_fourth {
+.two-columns, .three-columns, .two_third, .three_fourth {
     width: 100% !important;
     float: none;
     margin-right: auto !important;
     margin-left: auto !important;
     text-align: center;
 }
+}
+
+@media screen and (max-width: 1020px) {
+    .four-columns{
+        width: 100% !important;
+        float: none;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center;
+    }
 }
 
 .last{
