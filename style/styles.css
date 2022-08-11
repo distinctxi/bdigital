@@ -378,8 +378,15 @@ a.button:hover{
     }
 }
 
+@media screen and (max-width: 375px){
+    .about-section{
+        background-size:140% 100%;
+        background-position: center bottom;
+    }
+}
+
 .portfolio-section{
-    background-color: #000;
+    background-color: rgb(255, 255, 255);
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: auto;
@@ -419,14 +426,17 @@ a.button:hover{
     --webkit-transform: translateZ(0);
     text-align: center;
 }
+
+
+.services-icon img{
+    width: 70%;
+}
+
+
 @media screen and (max-width: 1020px){
 .services-icon img{
     width: 50%;
     }
-}
-
-.services-icon img{
-    width: 70%;
 }
 
 
